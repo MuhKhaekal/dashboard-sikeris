@@ -1,0 +1,119 @@
+.icon-rumah-sakit {
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px;
+
+}
+.icon-puskesmas {
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px; 
+}
+.icon-pustu{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px; 
+}
+.icon-polindes{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px; 
+}
+.icon-poskesdes{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px; 
+}
+.icon-TBC{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px; 
+}
+.icon-prevalensi{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px; 
+}
+.icon-angka_kesakitan_semua_umur{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px;
+}
+.icon-angka_kesakitan_balita{
+    background-color: rgba(62, 155, 255, 0.3);
+    padding: 4px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.toggle-link {
+  position: relative;
+  cursor: pointer;
+  color: gray;
+  padding: 8px 16px;
+  transition:color 0.3s;
+}
+
+.toggle-link :active {
+  color: black;
+  font-weight: bold;
+}
+
+.nav-custom-line {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap:  40px;
+  padding-bottom: 10px;
+}
+
+
+.underline {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50%;
+  height: 4px;
+  background-color: #3e97ff;
+  transition: transform 0.3s ease;
+  transform: translateX(-100%);
+}
+
+.nav-custom-line.bayi-active .underline{
+  transform: translateX(0%);
+}
+
+
+/* Pie Chart Container Styling */
+#pie_chart_kematian {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+/* Legend Styling */
+#pie_chart_kematian .apexcharts-legend {
+  margin-top: 10px;
+}
+
+#pie_chart_kematian .apexcharts-legend-series {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+
+
+
